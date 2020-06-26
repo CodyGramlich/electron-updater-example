@@ -1,6 +1,6 @@
 {
   "name": "electron-updater-example",
-  "version": "0.7.7",
+  "version": "0.7.8",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Matt Haggard",
@@ -30,6 +30,14 @@
         "owner": "CodyGramlich",
         "repo": "electron-updater-example"
       }
-    ]
+    ],
+    "linux" : {
+      "target": [
+        {
+          "target": "AppImage",
+          "arch": ["armv7l"]
+        }
+      ]
+    }
   }
 }
